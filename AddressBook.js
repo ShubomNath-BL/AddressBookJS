@@ -1,2 +1,12 @@
 const prompt = require("prompt-sync")();
 console.log("Welcome to address book");
+var firstName = prompt("Enter the first name: ");
+var lastName = prompt("Enter the last name: ");
+var address = prompt("Enter your address: ");
+var city = prompt("Enter your city: ");
+var state = prompt("Enter your state: ");
+var zip = prompt("Enter your ZIP code: ");
+var phoneNumber = prompt("Enter your phone number: ");
+var email = prompt("Enter your Email Id: ");
+var array = [firstName, lastName, address, city, state, zip, phoneNumber, email];
+console.log(array);
